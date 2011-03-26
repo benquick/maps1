@@ -1,0 +1,2 @@
+class ChapThreeController < ApplicationController
+end
