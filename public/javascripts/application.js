@@ -1,7 +1,6 @@
 // Place your application-specific JavaScript functions and classes here
 // This file is automatically included by javascript_include_tag :defaults
 
-
 var centerLatitude = 37.4419;
 var centerLongitude = -122.1419;
 var startZoom = 12;
@@ -43,8 +42,6 @@ function init() {
 		});
 	}
 }
-
-
 
 window.onload = init;
 window.onunload = GUnload;
