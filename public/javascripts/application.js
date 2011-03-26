@@ -37,6 +37,7 @@ function init() {
 		+ '</fieldset>';
 
 		map.openInfoWindow (latlng,inputForm);
+		var marker = new GMarker(latlng)
 		map.addOverlay(marker);
 
 		});
