@@ -6,9 +6,7 @@
 
 <script type="text/javascript">
 
-<!-- Uncaught SyntaxError: Unexpected token { -->
-  var stores=<%=(@stores.collect {|s|s.attributes}).to_json%>;
-<!-- Examples seem to result in errors -->
+  var stores=<%= raw (@stores.collect {|s|s.attributes}).to_json%>;
 
 </script>
 </head>
