@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110326203120) do
+ActiveRecord::Schema.define(:version => 20110327123242) do
 
   create_table "markers", :force => true do |t|
     t.decimal  "lat"
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(:version => 20110326203120) do
     t.string   "left",       :limit => 100
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "icon",       :limit => 100, :default => ""
   end
 
 end
